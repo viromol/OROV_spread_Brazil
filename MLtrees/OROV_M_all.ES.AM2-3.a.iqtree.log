@@ -1,0 +1,469 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Mac OS X 64-bit built Apr 20 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Tiagos-MacBook-Pro.local (AVX2, FMA3, 32 GB RAM)
+Command: iqtree213 -s OROV_M_all.ES.AM2-3.a.fasta -bb 1000 -ninit 1000 -nstop 200 -czb -nt AUTO
+Seed:    360241 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 14 21:14:34 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file OROV_M_all.ES.AM2-3.a.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 188 sequences with 4403 columns, 1951 distinct patterns
+1887 parsimony-informative, 823 singleton sites, 1693 constant sites
+                                                                   Gap/Ambiguity  Composition  p-value
+   1  LACENAM_243101000671AB_AM_ITACOATIARA_2024-02-22                     1.95%    passed     99.58%
+   2  LACENAM_233801002767HSR_Brazil_AM_Manacapuru_2023-12-25              1.95%    passed     99.72%
+   3  LACENAM_ILMD_243001000028_Brazil_AM_IRANDUBA_2024-01-07              1.95%    passed     99.52%
+   4  LACENAM_242201001233WMC_AM_COARI_2024-01-31                          1.95%    passed     99.52%
+   5  HAM_ILMD_24100008MCS_Brazil_AM_Manaus_2024-01-09                     1.95%    passed     98.98%
+   6  LACENAM_240201000514DMG_AM_PARINTINS_2024-02-06                      1.95%    passed     98.98%
+   7  LACENAM_230052009338AIVP_Brazil_AM_Manaus_2023-12-14                 1.95%    passed     99.15%
+   8  LACENAM_ILMD_240033000008_Brazil_AM_MANAUS_2024-01-04                1.95%    passed     98.98%
+   9  LACENAM_234901000737JSC_Brazil_AM_PresidenteFigueiredo_2023-12-28    1.95%    passed     99.73%
+  10  LACENAM_230049003269RAN_Brazil_AM_Manaus_2023-12-24                  1.95%    passed     98.95%
+  11  321559216_Brazil-ES_Colatina_2024-04-17                              1.95%    passed     99.04%
+  12  321564491_Brazil-ES_SaoGabrielDaPalha_2024-04-25                     1.95%    passed     98.61%
+  13  321575081_Brazil-ES_LaranjaDaTerra_2024-05-09                        1.95%    passed     99.69%
+  14  321577964_Brazil-ES_RioBananal_2024-05-16                            1.95%    passed     98.61%
+  15  321583631_Brazil-ES_Linhares_2024-05-27                              1.95%    passed     99.16%
+  16  321586790_Brazil-ES_VilaValerio_2024-06-04                           1.95%    passed     98.61%
+  17  321588383_Brazil-ES_Marilandia_2024-06-06                            1.95%    passed     98.38%
+  18  321589449_Brazil-ES_Anchieta_2024-06-10                              1.95%    passed     98.38%
+  19  321590364_Brazil-ES_Aracruz_2024-06-12                               1.95%    passed     98.12%
+  20  321596319_Brazil-ES_Itaguacu_2024-06-26                              1.95%    passed     99.04%
+  21  Brasil/Acre/Xapuri/BeH543100_1996                                    3.38%    passed     98.66%
+  22  Brasil/Amapa/Mazagao/AMA2291_H759582_2009-06-22                      1.95%    passed     99.59%
+  23  Brasil/Amapa/Mazagao/BeH759021_2009-07-23                            3.38%    passed     99.77%
+  24  Brasil/Amapa/Mazagao/BeH759022_2009-07-24                            3.38%    passed     99.92%
+  25  Brasil/Amapa/Mazagao/BeH759024_2009-07-24                            3.38%    passed     99.77%
+  26  Brasil/Amapa/Mazagao/BeH759025_2009-07-24                            3.38%    passed     99.77%
+  27  Brasil/Amapa/Mazagao/BeH759040_2009-07-23                            3.38%    passed     99.83%
+  28  Brasil/Amapa/Mazagao/BeH759146_2009-08-20                            3.38%    passed     99.79%
+  29  Brasil/Amapa/Mazagao/BeH759529_2009-06-17                            3.38%    passed     99.67%
+  30  Brasil/Amapa/Mazagao/BeH759620_2009-06-23                            3.38%    passed     99.88%
+  31  Brasil/Amazonas/Manaus/BeH389865_1980-12                             3.38%    passed     99.29%
+  32  Brasil/Amazonas/Manaus/BeH390242_1980-12                             3.38%    passed     99.61%
+  33  Brasil/Maranhao/BarradoCorda/BeH521086_1993-04                       3.38%    passed     97.96%
+  34  Brasil/Maranhao/PortoFranco/BeH472433_1988                           3.38%    passed     93.83%
+  35  Brasil/Maranhao/PortoFranco/BeH472435_1988                           3.38%    passed     99.66%
+  36  Brasil/MinasGerais/Arinos/BeAn626990_2000-02                         3.38%    passed     91.57%
+  37  Brasil/Para/Altamira/BeH541140_1994                                  3.38%    passed     99.19%
+  38  Brasil/Para/Ananindeua/BeH355173_1978                                3.38%    passed     99.02%
+  39  Brasil/Para/Belem/BeAr136921_1968                                    1.95%    passed     94.56%
+  40  Brasil/Para/Belem/BeAr366927_1979-05-29                              3.38%    passed     92.31%
+  41  Brasil/Para/Belem/BeH29086_1961                                      3.38%    passed     95.94%
+  42  Brasil/Para/Belem/BeH29090_1961-05                                   3.38%    passed     91.57%
+  43  Brasil/Para/Belem/BeH385591_1980                                     3.38%    passed     94.51%
+  44  Brasil/Para/Belem/H853382_2018-03-30                                 3.38%    passed     99.98%
+  45  Brasil/Para/Braganca/BeH121923_1967                                  3.38%    passed     94.17%
+  46  Brasil/Para/Ipixuna/BeAr19886_1960                                   3.38%    passed     89.30%
+  47  Brasil/Para/MagalhaesBarata/BeH707287_2006                           3.38%    passed     99.07%
+  48  Brasil/Para/MagalhaesBarata/BeH708139_2006                           3.38%    passed     99.49%
+  49  Brasil/Para/Maracana/BeAn206119_1971                                 3.38%    passed     98.05%
+  50  Brasil/Para/Maracana/BeAn208402_1971                                 3.38%    passed     99.82%
+  51  Brasil/Para/Maracana/BeAn208819_1971                                 3.38%    passed     99.85%
+  52  Brasil/Para/Maracana/BeH708717_2006                                  3.38%    passed     98.86%
+  53  Brasil/Para/Oriximina/BeH543629_1996                                 3.38%    passed     99.68%
+  54  Brasil/Para/Oriximina/BeH543760_1996                                 3.38%    passed     97.67%
+  55  Brasil/Para/Oriximina/BeH543857_1996                                 3.38%    passed     99.59%
+  56  Brasil/Para/Parauapebas/H669314_2003                                 3.38%    passed     99.60%
+  57  Brasil/Para/Parauapebas/H669315_2003                                 3.38%    passed     98.95%
+  58  Brasil/Para/PortodeMoz/PMOH682426_2004                               3.38%    passed     99.53%
+  59  Brasil/Para/PortodeMoz/PMOH682431_2004                               3.38%    passed     99.28%
+  60  Brasil/Para/SaoMigueldoGama/BeAn19991_1960-05                        1.95%    passed     99.46%
+  61  Brasil/Para/SerraPelada/BeH532314_1994                               3.38%    passed     99.32%
+  62  Brasil/Para/SerraPelada/BeH532422_1994                               3.38%    passed     87.65%
+  63  Brasil/Para/SerraPelada/BeH532490_1994                               3.38%    passed     99.49%
+  64  Brasil/Para/SerraPelada/BeH532500_1994                               3.38%    passed     98.99%
+  65  Brasil/Pernambuco/Moreno/4578-BM_2024-05-20                          1.95%    passed     99.37%
+  66  Brasil/Pernambuco/Recife/4637-BM_2024-05-23                          1.95%    passed     99.34%
+  67  Brasil/Rondonia/Ariquemes/BeH505768_1991-03                          3.38%    passed     90.20%
+  68  Brasil/Rondonia/MachadinhoDOeste/BeH498913_1990                      3.38%    passed     95.23%
+  69  Colombia/Amazonas/Leticia/LET-352_2021                               3.38%    passed     94.80%
+  70  Colombia/Amazonas/Leticia/LET-882_2021                               3.38%    passed     85.02%
+  71  Colombia/FCT00025_2017-09-09                                         3.45%    passed     90.84%
+  72  Colombia/NortedeSantander/Cucuta/0200178W_2020                       3.38%    passed     82.46%
+  73  Equador/Esmeraldas/087_2016-04-01                                    3.41%    passed     85.99%
+  74  Equador/Esmeraldas/D-057_2016-04                                     3.38%    passed     88.97%
+  75  Equador/Esmeraldas/D-155_2016-04                                     3.38%    passed     86.14%
+  76  Equador/Esmeraldas/D-171_2016-04                                     3.38%    passed     87.59%
+  77  Equador/Esmeraldas/D-206_2016-04                                     3.38%    passed     86.08%
+  78  Equador/Esmeraldas/D-210_2016-04                                     3.38%    passed     88.41%
+  79  GuianaFrancesa/Saul/17225_2020-09-17                                 3.38%    passed     99.90%
+  80  Haiti/GressierRegion/Haiti-1_2014-05-26                              3.38%    passed     99.52%
+  81  ILMD_24100019_Brazil_AM_Manaus_2024-01-17                            1.95%    passed     99.75%
+  82  ILMD_TF29_Brazil_AM_Tefe_2015-04-13                                  1.95%    passed     99.87%
+  83  Iquitos_virus_IQT9924_1999                                           1.95%    passed     90.32%
+  84  LACENAC_230102007055_Brazil_AC_RioBranco_2023-12-13                  1.95%    passed     99.04%
+  85  LACENAC_230102007062_Brazil_AC_RioBranco_2023-12-13                  1.95%    passed     99.29%
+  86  LACENAC_230145000733_Brazil_AC_SenaMadureira_2023-11-24              1.95%    passed     99.06%
+  87  LACENAC_230145000779_Brazil_AC_SenaMadureira_2023-11-29              1.95%    passed     99.04%
+  88  LACENAC_230148001279_Brazil_AC_Tarauaca_2023-11-22                   1.95%    passed     99.04%
+  89  LACENAC_230150000543_Brazil_AC_Xapuri_2023-11-30                     1.95%    passed     99.04%
+  90  LACENAC_230150000650_Brazil_AC_Xapuri_2023-12-14                     1.95%    passed     99.58%
+  91  LACENAC_230150000700_Brazil_AC_Xapuri_2023-12-19                     1.95%    passed     99.04%
+  92  LACENAC_230181000044_Brazil_AC_RioBranco_2023-11-29                  1.95%    passed     98.79%
+  93  LACENAC_240101000178_Brazil_AC_Tarauaca_2024-01-12                   1.95%    passed     99.04%
+  94  LACENAC_240101000182_Brazil_AC_Tarauaca_2024-01-12                   1.95%    passed     99.04%
+  95  LACENAC_240101000185_Brazil_AC_Tarauaca_2024-01-12                   1.95%    passed     99.06%
+  96  LACENAC_DEJANANE_Brazil_AM_Manaus_2024-01-09                         3.77%    passed     98.77%
+  97  LACENAC_ILMD_0096_Brazil_AC_Acrelandia_2023-03-02                    6.15%    passed     91.11%
+  98  LACENAC_ILMD_0151_Brazil_AC_Acrelandia_2023-03-31                    1.95%    passed     98.98%
+  99  LACENAC_ILMD_0244_Brazil_AC_PortoAcre_2023-03-30                     1.95%    passed     99.34%
+ 100  LACENAC_ILMD_0504_Brazil_AC_RioBranco_2023-03-06                     1.95%    passed     99.37%
+ 101  LACENAC_ILMD_0545_Brazil_AC_RioBranco_2023-03-13                     1.95%    passed     98.79%
+ 102  LACENAM_230049003090ASS_Brazil_AM_Manaus_2023-12-15                  1.95%    passed     99.27%
+ 103  LACENAM_230049003236GAB_Brazil_AM_Manaus_2023-12-22                  1.95%    passed     99.69%
+ 104  LACENAM_230049003383ALS_Brazil_AM_Manaus_2023-12-28                  1.95%    passed     99.58%
+ 105  LACENAM_240049000002WSC_Brazil_AM_Manaus_2023-12-29                  1.95%    passed     99.58%
+ 106  LACENAM_240049000600MJO_AM_MANAUS_2024-02-04                         4.20%    passed     99.24%
+ 107  LACENAM_240052001118RET_AM_MANAUS_2024-02-02                         1.95%    passed     99.27%
+ 108  LACENAM_240055000251AIM_AM_MANAUS_2024-02-02                         1.95%    passed     99.37%
+ 109  LACENAM_243001000454ASB_AM_IRANDUBA_2024-02-01                       1.95%    passed     99.27%
+ 110  LACENAM_244301000192ELL_AM_MAUES_2024-01-24                          1.95%    passed     99.33%
+ 111  LACENAM_245001000152MCB_AM_RIOPRETODAEVA_2024-02-01                  1.95%    passed     99.04%
+ 112  LACENAM_ILMD_0002AFS_Brazil_AM_Manicore_2023-01-04                   1.95%    passed     99.60%
+ 113  LACENAM_ILMD_0021CSO_Brazil_AM_Labrea_2023-01-17                     1.95%    passed     99.04%
+ 114  LACENAM_ILMD_0044NGF_Brazil_AM_Manicore_2023-02-13                   1.95%    passed     99.54%
+ 115  LACENAM_ILMD_0051JSL_Brazil_AM_Manicore_2023-02-15                   1.95%    passed     99.58%
+ 116  LACENAM_ILMD_0153JPS_Brazil_AM_Labrea_2023-02-15                    10.88%    passed     94.60%
+ 117  LACENAM_ILMD_0160ISS_Brazil_AM_Labrea_2023-02-16                     1.95%    passed     99.37%
+ 118  LACENAM_ILMD_0165GAS_Brazil_AM_Labrea_2023-02-16                     1.95%    passed     99.27%
+ 119  LACENAM_ILMD_2068TNM_Brazil_AM_Humaita_2022-12-24                    1.95%    passed     99.75%
+ 120  LACENAM_ILMD_234301000106_Brazil_AM_MAUES_2023-12-23                 2.95%    passed     97.47%
+ 121  LACENAM_ILMD_240001000042_Brazil_AM_MANAUS_2024-01-10                1.95%    passed     99.58%
+ 122  LACENAM_ILMD_240049000151_Brazil_AM_MANAUS_2024-01-04                1.95%    passed     99.15%
+ 123  LACENAM_ILMD_2846GSM_Brazil_AM_Manaus_2023-11-30                     6.47%    passed     94.28%
+ 124  LACENAM_ILMD_2847DPS_Brazil_AM_Manaus_2023-11-30                     6.59%    passed     93.89%
+ 125  LACENAM_ILMD_2848DCS_Brazil_AM_Manaus_2023-11-30                     6.59%    passed     92.56%
+ 126  LACENPR_ILMD_231701009982IOM_Brazil_PR_Lupionopolis_2023-12-21       1.95%    passed     99.37%
+ 127  LACENRO_ILMD_01_Brazil_RO_Cacaulandia_2023-05-10                     1.95%    passed     99.76%
+ 128  LACENRO_ILMD_02_Brazil_RO_SaoFranciscodoGuapore_2023-04-05           1.95%    passed     99.27%
+ 129  LACENRO_ILMD_05_Brazil_RO_MonteNegro_2023-03-14                      1.95%    passed     99.37%
+ 130  LACENRO_ILMD_06_Brazil_RO_MonteNegro_2023-03-16                      1.95%    passed     99.34%
+ 131  LACENRO_ILMD_08_Brazil_RO_CostaMarques_2023-04-18                    1.95%    passed     99.72%
+ 132  LACENRO_ILMD_09_Brazil_RO_ColoradodoOeste_2023-03-02                 1.95%    passed     99.32%
+ 133  LACENRR_ILMD_0023SLR_Brazil_RR_Canta_2023-02-18                      1.98%    passed     97.43%
+ 134  LACENRR_ILMD_0026TSS_Brazil_RR_SaoJoaoBaliza_2023-01-31              1.98%    passed     97.54%
+ 135  LACENRR_ILMD_0029MSM_Brazil_RR_Rorainopolis_2023-02-01               1.98%    passed     98.15%
+ 136  LACENRR_ILMD_0033MSC_Brazil_RR_Rorainopolis_2023-02-02               1.98%    passed     97.52%
+ 137  LACENRR_ILMD_0044DAS_Brazil_RR_Rorainopolis_2023-02-09               1.98%    passed     97.52%
+ 138  LACENRR_ILMD_0048LLS_Brazil_RR_SaoJoaoBaliza_2023-02-16              1.98%    passed     98.54%
+ 139  LACENRR_ILMD_0148ROS_Brazil_RR_Mucajai_2023-08-09                    2.73%    passed     96.35%
+ 140  LACENRR_ILMD_0153ARB_Brazil_RR_Mucajai_2023-08-08                    1.98%    passed     97.58%
+ 141  LACENRR_ILMD_0156HM_Brazil_RR_Mucajai_2023-08-07                     1.98%    passed     97.58%
+ 142  LACENRR_ILMD_0628MJG_Brazil_RR_AltoAlegre_2022-08-30                 1.98%    passed     99.02%
+ 143  LRV/24H3024_Botuvera-SC_2024-03-21                                  41.90%    passed     71.80%
+ 144  LRV/24H3027_Botuvera-SC_2024-03-20                                   1.95%    passed     99.37%
+ 145  LRV/24H3116_Apucarana-PR_2024-04-15                                  2.27%    passed     99.87%
+ 146  LRV/24H3399_LuizAlves-SC_2024-05-03                                  5.31%    passed     99.82%
+ 147  LRV/24H3400_LuizAlves-SC_2024-05-03                                  1.95%    passed     99.01%
+ 148  LRV/24H3401_LuizAlves-SC_2024-05-14                                  2.70%    passed     99.34%
+ 149  LRV/24H3402_LuizAlves-SC_2024-05-14                                  3.00%    passed     99.91%
+ 150  LRV/24H3403_LuizAlves-SC_2024-05-14                                  2.48%    passed     99.25%
+ 151  LRV/24H3404_Guabiruba-SC_2024-04-08                                 12.26%    passed     98.82%
+ 152  LRV/24H3405_Botuvera-SC_2024-04-01                                  18.51%    passed     89.55%
+ 153  LRV/24H3406_Botuvera-SC_2024-04-02                                   1.95%    passed     99.59%
+ 154  LRV/24H3407_SaoMartinho-SC_2024-05-07                               14.15%    passed     85.79%
+ 155  LRV/24H3509_UniaoDaVitoria-PR_2024-05-07                             1.95%    passed     99.01%
+ 156  LRV/24H3513_Adrianopolis-PR_2024-05-15                               1.95%    passed     99.01%
+ 157  LRV/24H3514_Altonia-PR_2024-05-10                                   27.00%    passed     98.11%
+ 158  LVM_ILMD_ARB-34_Brazil_AC_RioBranco_2023-12-13                       1.95%    passed     99.37%
+ 159  LVM_ILMD_ZCD067_Brazil_RO_PortoVelho_2022-10-31                      1.95%    passed     99.34%
+ 160  LVM_ILMD_ZCD103_Brazil_RO_PortoVelho_2023-01-25                      1.95%    passed     99.60%
+ 161  LVM_ILMD_ZCD117_Brazil_RO_PortoVelho_2023-02-01                      8.09%    passed     92.51%
+ 162  LVM_ILMD_ZCD121_Brazil_RO_PortoVelho_2023-02-06                      1.95%    passed     99.33%
+ 163  LVM_ILMD_ZCD123_Brazil_RO_PortoVelho_2023-02-14                      1.95%    passed     99.34%
+ 164  LVM_ILMD_ZCD142_Brazil_RO_PortoVelho_2023-03-08                      1.95%    passed     99.54%
+ 165  LVM_ILMD_ZDC089_Brazil_RO_PortoVelho_2023-01-09                      1.95%    passed     99.34%
+ 166  LVM_ILMD_ZDC125_Brazil_RO_PortoVelho_2023-03-02                      1.95%    passed     99.71%
+ 167  LVM_ILMD_ZDC388_Brazil_RO_PortoVelho_2023-05-11                      1.95%    passed     98.93%
+ 168  LVM_ILMD_ZDC-594_Brazil_RO_PortoVelho_2023-12-04                     1.95%    passed     99.04%
+ 169  LVM_ILMD_ZDC-622_Brazil_RO_PortoVelho_2023-12-12                     1.95%    passed     99.35%
+ 170  Madre_de_Dios_virus__FMD_1303_2007                                   1.64%    passed     97.85%
+ 171  Panama/Bejuco/TVP-19250_1989-08                                      3.38%    passed     56.49%
+ 172  Panama/Colon/TVP-19264_1999-10                                       3.38%    passed     95.38%
+ 173  Panama/SanMiguelito/TVP-19249_1989                                   3.38%    passed     58.87%
+ 174  Panama/TVP-19254_1989                                                3.38%    passed     95.38%
+ 175  Perdoes_virus_BeAn790177_2012                                        1.09%    passed     80.94%
+ 176  Peru/Amazonas/Bagua/TVP-19262_2000-05                                3.38%    passed     64.51%
+ 177  Peru/Loreto/Iquitos/IQT-1690_1995-04-06                              3.38%    passed     55.81%
+ 178  Peru/Loreto/Iquitos/IQT-4083_1997-08                                 3.38%    passed     46.74%
+ 179  Peru/Loreto/Iquitos/TVP-19244_1992-04                                3.38%    passed     68.82%
+ 180  Peru/Loreto/Iquitos/TVP-19256_2008-03                                3.38%    passed     73.28%
+ 181  Peru/Loreto/Iquitos/TVP-19259_IQT-7085_1998-04                       3.38%    passed     85.60%
+ 182  Peru/MadredeDios/TVP-19260_1994-02                                   3.38%    passed     46.74%
+ 183  RJ_4835_2024_Pirai-RJ_2024-03-24                                    11.22%    passed     89.92%
+ 184  RJ_5331_2024_Pirai-RJ_2024-04-02                                    11.20%    passed     93.91%
+ 185  RJ_5338_2024_Pirai-RJ_2024-04-02                                     7.68%    passed     95.37%
+ 186  RJ_6409_2024_Pirai-RJ_2024-04-18                                     7.74%    passed     93.37%
+ 187  RJ_6410_2024_Pirai-RJ_2024-04-18                                     9.63%    passed     87.99%
+ 188  TrinidadTobago/SangueGrande/TRLV9760_1955-09-26                      3.41%    passed     86.02%
+****  TOTAL                                                                3.45%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: LACENAM_240201000514DMG_AM_PARINTINS_2024-02-06 is identical to HAM_ILMD_24100008MCS_Brazil_AM_Manaus_2024-01-09 but kept for subsequent analysis
+NOTE: LACENAM_ILMD_240049000151_Brazil_AM_MANAUS_2024-01-04 is identical to LACENAM_230052009338AIVP_Brazil_AM_Manaus_2023-12-14 but kept for subsequent analysis
+NOTE: 321596319_Brazil-ES_Itaguacu_2024-06-26 is identical to 321559216_Brazil-ES_Colatina_2024-04-17 but kept for subsequent analysis
+NOTE: 321586790_Brazil-ES_VilaValerio_2024-06-04 is identical to 321564491_Brazil-ES_SaoGabrielDaPalha_2024-04-25 but kept for subsequent analysis
+NOTE: Brasil/Amapa/Mazagao/BeH759024_2009-07-24 is identical to Brasil/Amapa/Mazagao/BeH759021_2009-07-23 but kept for subsequent analysis
+NOTE: LACENAC_230148001279_Brazil_AC_Tarauaca_2023-11-22 is identical to LACENAC_230102007055_Brazil_AC_RioBranco_2023-12-13 but kept for subsequent analysis
+NOTE: LVM_ILMD_ZCD067_Brazil_RO_PortoVelho_2022-10-31 is identical to LACENRO_ILMD_06_Brazil_RO_MonteNegro_2023-03-16 but kept for subsequent analysis
+NOTE: LACENRR_ILMD_0044DAS_Brazil_RR_Rorainopolis_2023-02-09 is identical to LACENRR_ILMD_0033MSC_Brazil_RR_Rorainopolis_2023-02-02 but kept for subsequent analysis
+NOTE: LACENRR_ILMD_0156HM_Brazil_RR_Mucajai_2023-08-07 is identical to LACENRR_ILMD_0153ARB_Brazil_RR_Mucajai_2023-08-08 but kept for subsequent analysis
+NOTE: Panama/TVP-19254_1989 is identical to Panama/Colon/TVP-19264_1999-10 but kept for subsequent analysis
+NOTE: Peru/MadredeDios/TVP-19260_1994-02 is identical to Peru/Loreto/Iquitos/IQT-4083_1997-08 but kept for subsequent analysis
+NOTE: 6 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: LACENAC_230150000543_Brazil_AC_Xapuri_2023-11-30 (identical to LACENAC_230102007055_Brazil_AC_RioBranco_2023-12-13) is ignored but added at the end
+NOTE: LACENAC_230150000700_Brazil_AC_Xapuri_2023-12-19 (identical to LACENAC_230102007055_Brazil_AC_RioBranco_2023-12-13) is ignored but added at the end
+NOTE: LACENAC_240101000178_Brazil_AC_Tarauaca_2024-01-12 (identical to LACENAC_230102007055_Brazil_AC_RioBranco_2023-12-13) is ignored but added at the end
+NOTE: LACENAC_240101000182_Brazil_AC_Tarauaca_2024-01-12 (identical to LACENAC_230102007055_Brazil_AC_RioBranco_2023-12-13) is ignored but added at the end
+NOTE: LVM_ILMD_ZDC-594_Brazil_RO_PortoVelho_2023-12-04 (identical to LACENAC_230102007055_Brazil_AC_RioBranco_2023-12-13) is ignored but added at the end
+NOTE: LVM_ILMD_ZCD123_Brazil_RO_PortoVelho_2023-02-14 (identical to LACENRO_ILMD_06_Brazil_RO_MonteNegro_2023-03-16) is ignored but added at the end
+Alignment was printed to OROV_M_all.ES.AM2-3.a.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to OROV_M_all.ES.AM2-3.a.fasta.uniqueseq.phy
+
+Creating fast initial parsimony tree by random order stepwise addition...
+7.732 seconds, parsimony score: 5708 (based on 2710 sites)
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+21 trees examined
+Threads: 1 / Time: 16.865 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -84899
+Threads: 2 / Time: 9.145 sec / Speedup: 1.844 / Efficiency: 92% / LogL: -84899
+Threads: 3 / Time: 6.619 sec / Speedup: 2.548 / Efficiency: 85% / LogL: -84899
+Threads: 4 / Time: 5.325 sec / Speedup: 3.167 / Efficiency: 79% / LogL: -84899
+Threads: 5 / Time: 5.568 sec / Speedup: 3.029 / Efficiency: 61% / LogL: -84899
+Threads: 6 / Time: 5.411 sec / Speedup: 3.117 / Efficiency: 52% / LogL: -84899
+Threads: 7 / Time: 5.057 sec / Speedup: 3.335 / Efficiency: 48% / LogL: -84899
+BEST NUMBER OF THREADS: 4
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -31028.113
+Optimal log-likelihood: -31027.425
+Rate parameters:  A-C: 3.98003  A-G: 19.41085  A-T: 2.30081  C-G: 4.86119  C-T: 33.58556  G-T: 1.00000
+Base frequencies:  A: 0.360  C: 0.160  G: 0.188  T: 0.292
+Proportion of invariable sites: 0.178
+Gamma shape alpha: 0.569
+Parameters optimization took 1 rounds (0.232 sec)
+Time for fast ML tree search: 3.914 seconds
+
+NOTE: ModelFinder requires 122 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 4403) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         32395.866    369 65529.732    65597.438    67887.657
+  2  GTR+F+I       31493.222    370 63726.444    63794.535    66090.760
+  3  GTR+F+G4      31049.170    370 62838.341    62906.431    65202.656
+  4  GTR+F+I+G4    31026.790    371 62795.580    62864.055    65166.286
+  5  GTR+F+R2      31213.325    371 63168.649    63237.125    65539.355
+  6  GTR+F+R3      30948.469    373 62642.938    62712.187    65026.423
+  7  GTR+F+R4      30923.110    375 62596.220    62666.247    64992.486
+  8  GTR+F+R5      30906.265    377 62566.531    62637.341    64975.576
+  9  GTR+F+R6      30893.386    379 62544.772    62616.370    64966.598
+ 10  GTR+F+R7      30882.512    381 62527.023    62599.414    64961.629
+ 11  GTR+F+R8      30877.167    383 62520.333    62593.522    64967.719
+ 22  SYM+R6        31427.605    376 63607.210    63677.629    66009.866
+ 23  SYM+R7        31423.618    378 63603.236    63674.440    66018.672
+ 35  TVM+F+R6      30951.489    378 62658.977    62730.181    65074.413
+ 36  TVM+F+R7      30940.805    380 62641.609    62713.603    65069.825
+ 37  TVM+F+R8      30936.576    382 62637.152    62709.941    65078.148
+ 48  TVMe+R6       31449.353    375 63648.705    63718.732    66044.971
+ 49  TVMe+R7       31446.188    377 63646.376    63717.186    66055.421
+ 61  TIM3+F+R6     30909.705    377 62573.409    62644.220    64982.455
+ 62  TIM3+F+R7     30898.441    379 62554.883    62626.481    64976.708
+ 63  TIM3+F+R8     30894.352    381 62550.704    62623.095    64985.310
+ 74  TIM3e+R6      31507.019    374 63762.038    63831.675    66151.913
+ 75  TIM3e+R7      31500.359    376 63752.717    63823.136    66155.373
+ 87  TIM2+F+R6     30946.925    377 62647.850    62718.660    65056.895
+ 88  TIM2+F+R7     30935.197    379 62628.394    62699.992    65050.220
+ 89  TIM2+F+R8     30929.507    381 62621.013    62693.404    65055.619
+100  TIM2e+R6      31444.401    374 63636.801    63706.439    66026.677
+101  TIM2e+R7      31440.000    376 63632.001    63702.419    66034.656
+113  TIM+F+R6      30950.911    377 62655.823    62726.633    65064.868
+114  TIM+F+R7      30938.577    379 62635.153    62706.751    65056.979
+115  TIM+F+R8      30932.584    381 62627.168    62699.559    65061.773
+126  TIMe+R6       31489.839    374 63727.678    63797.316    66117.554
+127  TIMe+R7       31483.507    376 63719.013    63789.432    66121.669
+139  TPM3u+F+R6    30966.044    376 62684.089    62754.507    65086.744
+140  TPM3u+F+R7    30954.939    378 62665.878    62737.082    65081.314
+141  TPM3u+F+R8    30951.302    380 62662.603    62734.597    65090.819
+152  TPM3+F+R6     30966.044    376 62684.089    62754.507    65086.744
+153  TPM3+F+R7     30954.939    378 62665.878    62737.082    65081.314
+154  TPM3+F+R8     30951.297    380 62662.595    62734.589    65090.811
+165  TPM2u+F+R6    31001.779    376 62755.559    62825.977    65158.214
+166  TPM2u+F+R7    30990.187    378 62736.374    62807.577    65151.809
+167  TPM2u+F+R8    30984.979    380 62729.958    62801.953    65158.174
+178  TPM2+F+R6     31001.779    376 62755.559    62825.977    65158.214
+179  TPM2+F+R7     30990.187    378 62736.374    62807.577    65151.809
+180  TPM2+F+R8     30984.979    380 62729.959    62801.953    65158.174
+191  K3Pu+F+R6     31003.576    376 62759.153    62829.571    65161.808
+192  K3Pu+F+R7     30991.485    378 62738.970    62810.174    65154.405
+193  K3Pu+F+R8     30985.946    380 62731.892    62803.886    65160.108
+204  K3P+R6        31509.579    373 63765.159    63834.408    66148.644
+205  K3P+R7        31503.809    375 63757.617    63827.644    66153.883
+217  TN+F+R6       30952.788    376 62657.577    62727.995    65060.232
+218  TN+F+R7       30940.553    378 62637.106    62708.309    65052.541
+219  TN+F+R8       30934.868    380 62629.736    62701.730    65057.951
+230  TNe+R6        31507.564    373 63761.127    63830.376    66144.613
+231  TNe+R7        31500.852    375 63751.704    63821.731    66147.970
+243  HKY+F+R6      31005.201    375 62760.401    62830.429    65156.667
+244  HKY+F+R7      30993.138    377 62740.276    62811.087    65149.322
+245  HKY+F+R8      30987.649    379 62733.299    62804.897    65155.124
+256  K2P+R6        31527.143    372 63798.286    63867.147    66175.381
+257  K2P+R7        31521.047    374 63790.095    63859.732    66179.970
+269  F81+F+R6      32627.061    374 66002.122    66071.759    68391.997
+270  F81+F+R7      32624.694    376 66001.388    66071.806    68404.044
+282  JC+R6         32911.259    371 66564.518    66632.993    68935.223
+283  JC+R7         32910.505    373 66567.011    66636.260    68950.496
+Akaike Information Criterion:           GTR+F+R8
+Corrected Akaike Information Criterion: GTR+F+R8
+Bayesian Information Criterion:         GTR+F+R7
+Best-fit model: GTR+F+R7 chosen according to BIC
+
+All model information printed to OROV_M_all.ES.AM2-3.a.fasta.model.gz
+CPU time for ModelFinder: 3055.871 seconds (0h:50m:55s)
+Wall-clock time for ModelFinder: 771.939 seconds (0h:12m:51s)
+Generating 1000 samples for ultrafast bootstrap (seed: 360241)...
+
+NOTE: 88 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -30882.512
+Optimal log-likelihood: -30882.453
+Rate parameters:  A-C: 4.18394  A-G: 17.88382  A-T: 2.39630  C-G: 4.73635  C-T: 31.43647  G-T: 1.00000
+Base frequencies:  A: 0.360  C: 0.160  G: 0.188  T: 0.292
+Site proportion and rates:  (0.509,0.082) (0.010,0.674) (0.016,0.962) (0.115,1.260) (0.149,1.298) (0.160,1.318) (0.042,9.303)
+Parameters optimization took 1 rounds (0.868 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.177429 sec (of wall-clock time) 0.706038 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.003774 sec (of wall-clock time) 0.012718 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -31034.938
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 998 parsimony trees... 12.960 second
+Computing log-likelihood of 198 initial trees ... 7.107 seconds
+Current best score: -30882.453
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -30878.246
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -30873.740
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -30866.287
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -30863.852
+Iteration 10 / LogL: -30896.814 / Time: 0h:0m:37s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -30863.414
+Iteration 20 / LogL: -30882.735 / Time: 0h:0m:50s
+Finish initializing candidate tree set (20)
+Current best tree score: -30863.414 / CPU time: 49.192
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -30858.050
+Iteration 30 / LogL: -30874.111 / Time: 0h:1m:2s (0h:7m:7s left)
+Iteration 40 / LogL: -30861.440 / Time: 0h:1m:12s (0h:5m:46s left)
+Iteration 50 / LogL: -30865.944 / Time: 0h:1m:21s (0h:4m:54s left)
+Log-likelihood cutoff on original alignment: -30920.622
+Iteration 60 / LogL: -30860.835 / Time: 0h:1m:31s (0h:4m:19s left)
+Iteration 70 / LogL: -31869.083 / Time: 0h:1m:40s (0h:3m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -30853.428
+Iteration 80 / LogL: -30859.439 / Time: 0h:1m:50s (0h:4m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 83: -30851.889
+Iteration 90 / LogL: -30859.735 / Time: 0h:1m:59s (0h:4m:20s left)
+Iteration 100 / LogL: -30863.797 / Time: 0h:2m:10s (0h:4m:0s left)
+Log-likelihood cutoff on original alignment: -30908.781
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -31279.020 / Time: 0h:2m:19s (0h:3m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 111: -30850.074
+Iteration 120 / LogL: -30851.949 / Time: 0h:2m:31s (0h:4m:2s left)
+Iteration 130 / LogL: -30967.394 / Time: 0h:2m:41s (0h:3m:47s left)
+Iteration 140 / LogL: -30851.971 / Time: 0h:2m:51s (0h:3m:31s left)
+Iteration 150 / LogL: -30860.293 / Time: 0h:3m:0s (0h:3m:15s left)
+Log-likelihood cutoff on original alignment: -30908.781
+BETTER TREE FOUND at iteration 152: -30850.071
+Iteration 160 / LogL: -30850.141 / Time: 0h:3m:10s (0h:3m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 170: -30850.053
+Iteration 170 / LogL: -30850.053 / Time: 0h:3m:21s (0h:3m:58s left)
+Iteration 180 / LogL: -31263.704 / Time: 0h:3m:31s (0h:3m:44s left)
+Iteration 190 / LogL: -30857.872 / Time: 0h:3m:41s (0h:3m:30s left)
+Iteration 200 / LogL: -30862.381 / Time: 0h:3m:52s (0h:3m:18s left)
+Log-likelihood cutoff on original alignment: -30908.781
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 210 / LogL: -30861.338 / Time: 0h:4m:2s (0h:3m:5s left)
+Iteration 220 / LogL: -30856.293 / Time: 0h:4m:11s (0h:2m:52s left)
+Iteration 230 / LogL: -30859.761 / Time: 0h:4m:20s (0h:2m:39s left)
+Iteration 240 / LogL: -31169.566 / Time: 0h:4m:30s (0h:2m:26s left)
+Iteration 250 / LogL: -30850.285 / Time: 0h:4m:41s (0h:2m:15s left)
+Log-likelihood cutoff on original alignment: -30908.781
+Iteration 260 / LogL: -30858.705 / Time: 0h:4m:50s (0h:2m:3s left)
+Iteration 270 / LogL: -30861.228 / Time: 0h:4m:59s (0h:1m:51s left)
+Iteration 280 / LogL: -30850.494 / Time: 0h:5m:10s (0h:1m:40s left)
+Iteration 290 / LogL: -30864.936 / Time: 0h:5m:21s (0h:1m:28s left)
+Iteration 300 / LogL: -30850.083 / Time: 0h:5m:32s (0h:1m:17s left)
+Log-likelihood cutoff on original alignment: -30908.781
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 310 / LogL: -30891.350 / Time: 0h:5m:43s (0h:1m:40s left)
+Iteration 320 / LogL: -30853.023 / Time: 0h:5m:54s (0h:1m:29s left)
+Iteration 330 / LogL: -30856.351 / Time: 0h:6m:6s (0h:1m:18s left)
+Iteration 340 / LogL: -30851.484 / Time: 0h:6m:17s (0h:1m:6s left)
+Iteration 350 / LogL: -30850.461 / Time: 0h:6m:28s (0h:0m:55s left)
+Log-likelihood cutoff on original alignment: -30908.781
+Iteration 360 / LogL: -30887.066 / Time: 0h:6m:39s (0h:0m:44s left)
+Iteration 370 / LogL: -30869.561 / Time: 0h:6m:50s (0h:0m:33s left)
+TREE SEARCH COMPLETED AFTER 371 ITERATIONS / Time: 0h:6m:51s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -30850.053
+Optimal log-likelihood: -30850.052
+Rate parameters:  A-C: 4.17207  A-G: 18.02320  A-T: 2.45871  C-G: 4.61467  C-T: 31.62054  G-T: 1.00000
+Base frequencies:  A: 0.360  C: 0.160  G: 0.188  T: 0.292
+Site proportion and rates:  (0.510,0.083) (0.010,1.068) (0.016,1.096) (0.115,1.239) (0.149,1.282) (0.160,1.317) (0.041,9.371)
+Parameters optimization took 1 rounds (0.236 sec)
+BEST SCORE FOUND : -30850.052
+Creating bootstrap support values...
+Split supports printed to NEXUS file OROV_M_all.ES.AM2-3.a.fasta.splits.nex
+Collapsing near-zero internal branches... 86 collapsed
+Total tree length: 5.048
+
+Total number of iterations: 371
+CPU time used for tree search: 1622.485 sec (0h:27m:2s)
+Wall-clock time used for tree search: 410.335 sec (0h:6m:50s)
+Total CPU time used: 1630.831 sec (0h:27m:10s)
+Total wall-clock time used: 412.577 sec (0h:6m:52s)
+
+Computing bootstrap consensus tree...
+Reading input file OROV_M_all.ES.AM2-3.a.fasta.splits.nex...
+182 taxa and 3909 splits.
+Consensus tree written to OROV_M_all.ES.AM2-3.a.fasta.contree
+Reading input trees file OROV_M_all.ES.AM2-3.a.fasta.contree
+Log-likelihood of consensus tree: -30869.602
+
+Analysis results written to: 
+  IQ-TREE report:                OROV_M_all.ES.AM2-3.a.fasta.iqtree
+  Maximum-likelihood tree:       OROV_M_all.ES.AM2-3.a.fasta.treefile
+  Likelihood distances:          OROV_M_all.ES.AM2-3.a.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          OROV_M_all.ES.AM2-3.a.fasta.splits.nex
+  Consensus tree:                OROV_M_all.ES.AM2-3.a.fasta.contree
+  Screen log file:               OROV_M_all.ES.AM2-3.a.fasta.log
+
+Date and Time: Wed Aug 14 21:34:19 2024
